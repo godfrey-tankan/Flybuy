@@ -5,4 +5,4 @@ Here's the code at the end of JavaScript Course Lesson 13 (if you need it).
 2. Open the downloaded file (this will unzip it)
 3. Optional: move the folder to another place on your computer, rename the folder
 
-That's it! Now you're ready to follow along.
+
