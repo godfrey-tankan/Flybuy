@@ -1,233 +1,235 @@
 const products = [
   {
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
-    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
-    name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    image: "images/products/airfly.jpg",
+    name: "AirFly SE White - Bluetooth transmitter",
     rating: {
       stars: 4.5,
-      count: 87
+      count: 870
     },
-    priceCents: 1090,
+    priceCents: 3499,
     keywords: [
-      "socks",
-      "sports",
-      "apparel"
+      "bluetooth",
+      "transmitter",
+      "headphones",
+      "wireless",
     ]
   },
   {
     id: "15b6fc6f-327a-4ec4-896f-486349e85a3d",
-    image: "images/products/intermediate-composite-basketball.jpg",
-    name: "Intermediate Size Basketball",
+    image: "images/products/fan.png",
+    name: "atomberg Efficio 900mm BLDC Motor 5 Star Rated Classic Fan Ceiling Fans with Remote Control | High Air Delivery Fan with LED Indicators | ",
     rating: {
       stars: 4,
       count: 127
     },
-    priceCents: 2095,
+    priceCents: 11788,
     keywords: [
-      "sports",
-      "basketballs"
+      "fan",
+      "cooling",
+      "summer",
     ]
   },
   {
     id: "83d4ca15-0f35-48f5-b7a3-1ea210004f2e",
-    image: "images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg",
-    name: "Adults Plain Cotton T-Shirt - 2 Pack",
+    image: "images/products/airpods.jpeg",
+    name: "Apple AirPods with Charging Case (Wired)",
     rating: {
-      stars: 4.5,
-      count: 56
+      stars: 5.0,
+      count: 5610
     },
-    priceCents: 799,
+    priceCents: 21999,
     keywords: [
-      "tshirts",
-      "apparel",
-      "mens"
+      "airpods",
+      "apple",
+      "earphones",
+      "wireless",
     ],
-    type: "clothing",
-    sizeChartLink: "images/clothing-size-chart.png"
+    type: "accessories",
+    sizeChartLink: "images/accessories-size-chart.png"
   },
   {
     id: "54e0eccd-8f36-462b-b68a-8182611d9add",
-    image: "images/products/black-2-slot-toaster.jpg",
-    name: "2 Slot Toaster - Black",
+    image: "images/products/gaming-ryzen.jpg",
+    name: "AMD Ryzen 9 7950X3D",
     rating: {
-      stars: 5,
-      count: 2197
+      stars: 4.2,
+      count: 597
     },
-    priceCents: 1899,
+    priceCents: 63700,
     keywords: [
-      "toaster",
-      "kitchen",
-      "appliances"
+      "gaming",
+      "processor",
+      "cpu",
     ]
   },
   {
     id: "3ebe75dc-64d2-4137-8860-1f5a963e534b",
-    image: "images/products/6-piece-white-dinner-plate-set.jpg",
-    name: "6 Piece White Dinner Plate Set",
+    image: "images/products/S23-ultra.jpeg",
+    name: "Galaxy S23 Ultra - 8GB RAM + 256GB storage",
     rating: {
       stars: 4,
-      count: 37
+      count: 8202
     },
-    priceCents: 2067,
+    priceCents: 119900,
     keywords: [
-      "plates",
-      "kitchen",
-      "dining"
+      "samsung",
+      "s23",
+      "mobile",
+      "smartphone",
     ]
   },
   {
     id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
-    image: "images/products/6-piece-non-stick-baking-set.webp",
-    name: "6-Piece Nonstick, Carbon Steel Oven Bakeware Baking Set",
+    image: "images/products/powe-bank.webp",
+    name: "Mi 10000mAH Li-Polymer Power Bank 3i with 18W Fast Charging",
     rating: {
-      stars: 4.5,
-      count: 175
+      stars: 3.5,
+      count: 105
     },
-    priceCents: 3499,
+    priceCents: 5499,
     keywords: [
-      "kitchen",
-      "cookware"
+      "powerbank",
+      "charger",
+      "mobile",
+      "smartphone",
     ]
   },
   {
     id: "dd82ca78-a18b-4e2a-9250-31e67412f98d",
-    image: "images/products/plain-hooded-fleece-sweatshirt-yellow.jpg",
-    name: "Plain Hooded Fleece Sweatshirt",
+    image: "images/products/mac.jpg",
+    name: "M2 MacBook Pro 13-inch | 8GB RAM 256GB SSD",
     rating: {
-      stars: 4.5,
-      count: 317
+      stars: 4.0,
+      count: 3117
     },
-    priceCents: 2400,
+    priceCents: 119900,
     keywords: [
-      "hoodies",
-      "sweaters",
-      "apparel"
+      "macbook",
+      "apple",
+      "laptop",
+      "computer",
     ]
   },
   {
     id: "77919bbe-0e56-475b-adde-4f24dfed3a04",
-    image: "images/products/luxury-tower-set-6-piece.jpg",
-    name: "Luxury Towel Set - Graphite Gray",
+    image: "images/products/mouse.jpeg",
+    name: "Logitech M235 Wireless Mouse for Windows and Mac with 2.4 GHz Wireless Technology",
     rating: {
-      stars: 4.5,
+      stars: 3.5,
       count: 144
     },
     priceCents: 3599,
     keywords: [
-      "bathroom",
-      "washroom",
-      "restroom",
-      "towels",
-      "bath towels"
+      "mouse",
+      "logitech",
+      "computer",
+      "wireless",
     ]
   },
   {
     id: "3fdfe8d6-9a15-4979-b459-585b0d0545b9",
-    image: "images/products/liquid-laundry-detergent-plain.jpg",
-    name: "Liquid Laundry Detergent, 110 Loads, 82.5 Fl Oz",
+    image: "images/products/playstation.png",
+    name: "PlayStation 5 Slim Console with Extra DualSense Wireless Controller",
     rating: {
       stars: 4.5,
       count: 305
     },
-    priceCents: 2899,
+    priceCents: 50000,
     keywords: [
-      "bathroom",
-      "cleaning"
+      "playstation",
+      "gaming",
+      "console",
     ]
   },
   {
     id: "58b4fc92-e98c-42aa-8c55-b6b79996769a",
-    image: "images/products/knit-athletic-sneakers-gray.jpg",
-    name: "Waterproof Knit Athletic Sneakers - Gray",
+    image: "images/products/laptop-battery.png",
+    name: "Dell 40Whr 4-Cell Primary Lithium-Ion Battery",
     rating: {
-      stars: 4,
-      count: 89
+      stars: 3.5,
+      count: 289
     },
-    priceCents: 3390,
+    priceCents: 11874,
     keywords: [
-      "shoes",
-      "running shoes",
-      "footwear"
+      "battery",
+      "dell battery",
     ]
   },
   {
     id: "5968897c-4d27-4872-89f6-5bcb052746d7",
-    image: "images/products/women-chiffon-beachwear-coverup-black.jpg",
-    name: "Women's Chiffon Beachwear Cover Up - Black",
+    image: "images/products/monitor.jpeg",
+    name: "UltraSharp 27 4K USB-C Monitor: U2720Q",
     rating: {
       stars: 4.5,
-      count: 235
+      count: 2350
     },
-    priceCents: 2070,
+    priceCents: 20270,
     keywords: [
-      "robe",
-      "swimsuit",
-      "swimming",
-      "bathing",
-      "apparel"
+      "monitor",
+      "external monitor",
     ],
-    type: "clothing",
-    sizeChartLink: "images/clothing-size-chart.png"
+    type: "accessories",
+    sizeChartLink: "images/monitor.jpeg"
   },
   {
     id: "aad29d11-ea98-41ee-9285-b916638cac4a",
-    image: "images/products/round-sunglasses-black.jpg",
-    name: "Round Sunglasses",
+    image: "images/products/heads.png",
+    name: "Beats QuietComfort 35 Wireless Bluetooth Headphones",
     rating: {
       stars: 4.5,
       count: 30
     },
-    priceCents: 1560,
+    priceCents: 6560,
     keywords: [
-      "accessories",
-      "shades"
+      "headphones",
+      "bose",
+      "wireless",
     ]
   },
   {
     id: "04701903-bc79-49c6-bc11-1af7e3651358",
-    image: "images/products/women-beach-sandals.jpg",
-    name: "Women's Two Strap Buckle Sandals - Tan",
+    image: "images/products/Xbox-One-S-500GB-Console.jpg",
+    name: "Xbox One S 500GB Console",
     rating: {
       stars: 4.5,
-      count: 562
+      count: 5621
     },
-    priceCents: 2499,
+    priceCents: 49900,
     keywords: [
-      "footwear",
-      "sandals",
-      "womens",
-      "beach",
-      "summer"
+      "xbox 1",
+      "gaming",
+      "console",
     ]
   },
   {
     id: "901eb2ca-386d-432e-82f0-6fb1ee7bf969",
-    image: "images/products/blackout-curtain-set-beige.webp",
-    name: "Blackout Curtains Set 4-Pack - Beige",
+    image: "images/products/speaker.jpg",
+    name: "JBL Round 3 Stealth Waterproof Portable Bluetooth Speaker",
     rating: {
       stars: 4.5,
-      count: 232
+      count: 621
     },
-    priceCents: 4599,
+    priceCents: 9599,
     keywords: [
-      "bedroom",
-      "curtains",
-      "home"
+      "speaker",
+      "bluetooth speaker",
+      "wireless",
     ]
   },
   {
     id: "82bb68d7-ebc9-476a-989c-c78a40ee5cd9",
-    image: "images/products/men-slim-fit-summer-shorts-gray.jpg",
-    name: "Men's Slim-Fit Summer Shorts",
+    image: "images/products/bedroom-clock.jpg",
+    name: "Digital Alarm Clock with Large 6.5\" LED Display",
     rating: {
-      stars: 4,
+      stars: 2.5,
       count: 160
     },
-    priceCents: 1699,
+    priceCents: 11000,
     keywords: [
-      "shorts",
-      "apparel",
-      "mens"
+      "clock",
+      "alarm clock",
+      "bedroom",
     ]
   },
   {
