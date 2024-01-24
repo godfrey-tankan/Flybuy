@@ -1,26 +1,35 @@
 [
   {
     "id": "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
-    "image": "images/products/athletic-cotton-socks-6-pairs.jpg",
-    "name": "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    "image": "images/products/airfly.jpg",
+    "name": "AirFly SE White - Bluetooth transmitter",
     "rating": {
       "stars": 4.5,
       "count": 87
     },
-    "priceCents": 1090,
+    "priceCents": 3499,
     "keywords": [
-      "socks",
-      "sports",
-      "apparel"
+      "bluetooth",
+      "transmitter",
+      "airpods",
+      "headphones",
+      "earbuds",
+      "wireless",
+      "audio",
+      "music",
+      "electronics",
+      "tech",
+      "gadgets",
+      "accessories"
     ]
   },
   {
     "id": "15b6fc6f-327a-4ec4-896f-486349e85a3d",
-    "image": "images/products/intermediate-composite-basketball.jpg",
-    "name": "Intermediate Size Basketball",
+    "image": "images/products/airpods.jpg",
+    "name": "AirPods with Charging Case",
     "rating": {
-      "stars": 4,
-      "count": 127
+      "stars": 5.0,
+      "count": 12710
     },
     "priceCents": 2095,
     "keywords": [
