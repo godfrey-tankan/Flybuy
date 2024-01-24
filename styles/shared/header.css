@@ -1,4 +1,4 @@
-.amazon-header {
+.flybuy-header {
   background-color: rgb(19, 25, 33);
   color: white;
   padding-left: 15px;
@@ -15,13 +15,13 @@
   height: 60px;
 }
 
-.amazon-header-left-section {
-  width: 180px;
+.flybuy-header-left-section {
+  width: max-content;
 }
 
 @media (max-width: 800px) {
-  .amazon-header-left-section {
-    width: unset;
+  .flybuy-header-left-section {
+    width: max-content;
   }
 }
 
@@ -35,31 +35,37 @@
 }
 
 .header-link:hover {
+  opacity: 0.8;
+}
+
+
+.flybuy-mobile-logo {
+  margin-left: 30px;
+  width: 30px;
+  margin-top:   8px;
+  height: 30px;  
+}
+.flybuy-mobile-logo img{
   border: 1px solid white;
-}
-
-.amazon-logo {
-  width: 100px;
-  margin-top: 5px;
-}
-
-.amazon-mobile-logo {
-  display: none;
+  border-radius: 40px solid white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @media (max-width: 575px) {
-  .amazon-logo {
+  .flybuy-logo {
     display: none;
   }
 
-  .amazon-mobile-logo {
+  .flybuy-mobile-logo {
     display: block;
     height: 35px;
     margin-top: 5px;
   }
 }
 
-.amazon-header-middle-section {
+.flybuy-header-middle-section {
   flex: 1;
   max-width: 850px;
   margin-left: 10px;
@@ -96,7 +102,7 @@
   margin-top: 3px;
 }
 
-.amazon-header-right-section {
+.flybuy-header-right-section {
   width: 180px;
   flex-shrink: 0;
   display: flex;

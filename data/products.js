@@ -234,351 +234,331 @@ const products = [
   },
   {
     id: "c2a82c5e-aff4-435f-9975-517cfaba2ece",
-    image: "images/products/electric-glass-and-steel-hot-water-kettle.webp",
-    name: "Electric Glass and Steel Hot Tea Water Kettle - 1.7-Liter",
+    image: "images/products/canon-pr.png",
+    name: "Canon MAXIFY GX7040 4-in-1",
     rating: {
-      stars: 5,
-      count: 846
+      stars: 4.5,
+      count: 15246
     },
-    priceCents: 3074,
+    priceCents: 93700,
     keywords: [
-      "water boiler",
-      "appliances",
-      "kitchen"
+      "printer",
+      "canon",
+      "office",
     ]
   },
   {
     id: "6b07d4e7-f540-454e-8a1e-363f25dbae7d",
-    image: "images/products/facial-tissue-2-ply-18-boxes.jpg",
-    name: "Ultra Soft Tissue 2-Ply - 18 Box",
+    image: "images/products/keyboard-for-games.jpg",
+    name: "SteelSeries Apex Pro TKL Wireless Gaming keyboard (2023)",
     rating: {
-      stars: 4,
+      stars: 2.5,
       count: 99
     },
     priceCents: 2374,
     keywords: [
-      "kleenex",
-      "tissues",
-      "kitchen",
-      "tissues box",
-      "napkins"
-    ]
+      "keyboard",
+      "gaming",
+      "wireless",
+    ] 
   },
   {
     id: "a82c6bac-3067-4e68-a5ba-d827ac0be010",
-    image: "images/products/straw-sunhat.webp",
-    name: "Straw Lifeguard Sun Hat",
+    image: "images/products/mouse2.jpeg",
+    name: "Logitech G Pro X Superlight Wireless Gaming Mouse",
     rating: {
-      stars: 4,
-      count: 215
+      stars: 4.5,
+      count: 719
     },
-    priceCents: 2200,
+    priceCents: 15999,
     keywords: [
-      "hats",
-      "straw hats",
-      "summer",
-      "apparel"
+      "mouse",
+      "gaming",
+      "wireless",
     ]
   },
   {
     id: "e4f64a65-1377-42bc-89a5-e572d19252e2",
-    image: "images/products/sky-flower-stud-earrings.webp",
-    name: "Sterling Silver Sky Flower Stud Earrings",
+    image: "images/products/SONY-heads.jpg",
+    name: "Sony - WH-1000XM5 Wireless Industry Leading Noise Canceling",
     rating: {
       stars: 4.5,
-      count: 52
+      count: 1000
     },
-    priceCents: 1799,
+    priceCents: 39999,
     keywords: [
-      "jewelry",
-      "accessories",
-      "womens"
+      "headphones",
+      "sony",
+      "wireless",
     ]
   },
   {
     id: "b0f17cc5-8b40-4ca5-9142-b61fe3d98c85",
-    image: "images/products/women-stretch-popover-hoodie-black.jpg",
-    name: "Women's Stretch Popover Hoodie",
+    image: "images/products/smart-watch.jpeg",
+    name: "Apple Watch Ultra 2",
     rating: {
       stars: 4.5,
       count: 2465
     },
-    priceCents: 1374,
+    priceCents: 79900,
     keywords: [
-      "hooded",
-      "hoodies",
-      "sweaters",
-      "womens",
-      "apparel"
+      "smartwatch",
+      "apple",
+      "watch",
     ],
-    type: "clothing",
-    sizeChartLink: "images/clothing-size-chart.png"
+    type: "accessories",
+    sizeChartLink: "images/smart-watch.jpeg"
   },
   {
     id: "a93a101d-79ef-4cf3-a6cf-6dbe532a1b4a",
-    image: "images/products/bathroom-rug.jpg",
-    name: "Bathroom Bath Rug Mat 20 x 31 Inch - Grey",
+    image: "images/products/gaming-computers.png",
+    name: "GeForce RTX 4060 Ti",
     rating: {
       stars: 4.5,
-      count: 119
+      count: 1191
     },
-    priceCents: 1250,
+    priceCents: 39999,
     keywords: [
-      "bathmat",
-      "bathroom",
-      "home"
+      "gaming",
+      "computer",
+      "desktop",
     ]
   },
   {
     id: "4f4fbcc2-4e72-45cc-935c-9e13d79cc57f",
-    image: "images/products/women-knit-ballet-flat-black.jpg",
-    name: "Women's Knit Ballet Flat",
+    image: "images/products/hp_elitebook_mobile.jpg",
+    name: "HP EliteBook 840 G8",
     rating: {
-      stars: 4,
-      count: 326
+      stars: 5.0,
+      count: 926
     },
-    priceCents: 2640,
+    priceCents: 76500,
     keywords: [
-      "shoes",
-      "flats",
-      "womens",
-      "footwear"
+      "laptop",
+      "hp",
+      "computer",
     ]
   },
   {
     id: "8b5a2ee1-6055-422a-a666-b34ba28b76d4",
-    image: "images/products/men-golf-polo-t-shirt-blue.jpg",
-    name: "Men's Regular-Fit Quick-Dry Golf Polo Shirt",
+    image: "images/products/canon-printer.jpg",
+    name: " Canon DCP-L2540DW 3-in-1 Mono Laser Printer. 5.0 ",
     rating: {
       stars: 4.5,
       count: 2556
     },
-    priceCents: 1599,
+    priceCents: 12000,
     keywords: [
-      "tshirts",
-      "shirts",
-      "apparel",
-      "mens"
+      "printer",
+      "canon",
+      "office",
     ],
-    type: "clothing",
-    sizeChartLink: "images/clothing-size-chart.png"
+    type: "accessories",
+    sizeChartLink: "images/canon-printer.jpg"
   },
   {
     id: "b86ddc8b-3501-4b17-9889-a3bad6fb585f",
-    image: "images/products/trash-can-with-foot-pedal-50-liter.jpg",
-    name: "Trash Can with Foot Pedal - Brushed Stainless Steel",
+    image: "images/products/iphone13.jpeg",
+    name: "	iPhone 13",
     rating: {
       stars: 4.5,
       count: 2286
     },
-    priceCents: 8300,
+    priceCents: 79900,
     keywords: [
-      "garbage",
-      "bins",
-      "cans",
-      "kitchen"
+      "iphone13",
+      "apple13",
+      "smartphone",
     ]
   },
   {
     id: "19c6a64a-5463-4d45-9af8-e41140a4100c",
-    image: "images/products/duvet-cover-set-blue-twin.jpg",
-    name: "Duvet Cover Set with Zipper Closure",
+    image: "images/products/mac-battery.jpg",
+    name: "Apple MacBook Pro 13-inch Battery Replacement",
     rating: {
-      stars: 4,
+      stars: 4.0,
       count: 456
     },
-    priceCents: 2399,
+    priceCents: 8999,
     keywords: [
-      "bedroom",
-      "bed sheets",
-      "sheets",
-      "covers",
-      "home"
+      "battery",
+      "apple",
+      "macbook",
     ]
   },
   {
     id: "d2785924-743d-49b3-8f03-ec258e640503",
-    image: "images/products/women-chunky-beanie-gray.webp",
-    name: "Women's Chunky Cable Beanie - Gray",
+    image: "images/products/cp.jpg",
+    name: "Canon imageRUNNER C1538iF Multifunction Printer",
     rating: {
       stars: 5,
       count: 83
     },
-    priceCents: 1250,
+    priceCents: 39900,
     keywords: [
-      "hats",
-      "winter hats",
-      "beanies",
-      "tuques",
-      "apparel",
-      "womens"
+      "printer",
+      "canon image runner",
+      "office",
     ]
   },
   {
     id: "ee1f7c56-f977-40a4-9642-12ba5072e2b0",
-    image: "images/products/men-chino-pants-beige.jpg",
-    name: "Men's Classic-fit Pleated Chino Pants",
+    image: "images/products/iphone14.jpeg",
+    name: "iPhone 14 | 128 GB",
     rating: {
-      stars: 4.5,
-      count: 9017
+      stars: 5.0,
+      count: 90217
     },
-    priceCents: 2290,
+    priceCents: 69900,
     keywords: [
-      "pants",
-      "apparel",
-      "mens"
+      "iphone14",
+      "apple14",
+      "smartphone",
     ]
   },
   {
     id: "1c079479-8586-494f-ab53-219325432536",
-    image: "images/products/men-athletic-shoes-green.jpg",
-    name: "Men's Athletic Sneaker",
+    image: "images/products/pink.jpg",
+    name: "Gaming Keyboard Redragon FIZZ K617 60 Pink Mechanical Gaming keyboard",
     rating: {
-      stars: 4,
+      stars: 3.5,
       count: 229
     },
-    priceCents: 3890,
+    priceCents: 7184,
     keywords: [
-      "shoes",
-      "running shoes",
-      "footwear",
-      "mens"
+      "keyboard",
+      "gaming",
+      "wireless",
     ]
   },
   {
     id: "4df68c27-fd59-4a6a-bbd1-e754ddb6d53c",
-    image: "images/products/men-navigator-sunglasses-brown.jpg",
-    name: "Men's Navigator Sunglasses Pilot",
+    image: "images/products/rj45.jpg",
+    name: "Amazon.com: DanYee Cat 8 Ethernet Cable, Nylon Braided 10ft High Speed Network Cable LAN",
     rating: {
       stars: 3.5,
-      count: 42
+      count: 424
     },
-    priceCents: 1690,
+    priceCents: 990,
     keywords: [
-      "sunglasses",
-      "glasses",
-      "accessories",
-      "shades"
+      "ethernet",
+      "cable",
+      "wireless",
     ]
   },
   {
     id: "4e37dd03-3b23-4bc6-9ff8-44e112a92c64",
-    image: "images/products/non-stick-cooking-set-15-pieces.webp",
-    name: "Non-Stick Cookware Set, Pots, Pans and Utensils - 15 Pieces",
+    image: "images/products/g-motherboard.jpg",
+    name: "ASUS ROG Strix X670E-F Motherboard",
     rating: {
       stars: 4.5,
       count: 511
     },
-    priceCents: 6797,
+    priceCents: 38999,
     keywords: [
-      "cooking set",
-      "kitchen"
+      "motherboard",
+      "asus",
+      "gaming",
     ]
   },
   {
     id: "a434b69f-1bc1-482d-9ce7-cd7f4a66ce8d",
-    image: "images/products/vanity-mirror-silver.jpg",
-    name: "Vanity Mirror with Heavy Base - Chrome",
+    image: "images/products/router.jpeg",
+    name: "TP-Link Archer AXE75",
     rating: {
       stars: 4.5,
       count: 130
     },
-    priceCents: 1649,
+    priceCents: 17900,
     keywords: [
-      "bathroom",
-      "washroom",
-      "mirrors",
-      "home"
+      "router",
+      "tp-link",
+      "internet",
     ]
   },
   {
     id: "a45cfa0a-66d6-4dc7-9475-e2b01595f7d7",
-    image: "images/products/women-french-terry-fleece-jogger-camo.jpg",
-    name: "Women's Fleece Jogger Sweatpant",
+    image: "images/products/star.jpeg",
+    name: "Starlink RV internet",
     rating: {
       stars: 4.5,
-      count: 248
+      count: 21048
     },
-    priceCents: 2400,
+    priceCents: 59900,
     keywords: [
-      "pants",
-      "sweatpants",
-      "jogging",
-      "apparel",
-      "womens"
+      "starlink",
+      "internet",
     ]
   },
   {
     id: "d339adf3-e004-4c20-a120-40e8874c66cb",
-    image: "images/products/double-elongated-twist-french-wire-earrings.webp",
-    name: "Double Oval Twist French Wire Earrings - Gold",
+    image: "images/products/scopion.jpeg",
+    name: "IW-SK Imperator Works Gaming Chair Computer",
     rating: {
       stars: 4.5,
-      count: 117
+      count: 717
     },
-    priceCents: 2400,
+    priceCents: 409900,
     keywords: [
-      "accessories",
-      "womens"
+      "gaming",
+      "scopion chair",
     ]
   },
   {
     id: "d37a651a-d501-483b-aae6-a9659b0757a0",
-    image: "images/products/round-airtight-food-storage-containers.jpg",
-    name: "Round Airtight Food Storage Containers - 5 Piece",
+    image: "images/products/controller.jpeg",
+    name: "Forty4 Wireless Gaming Controller",
     rating: {
       stars: 4,
-      count: 126
+      count: 626
     },
-    priceCents: 2899,
+    priceCents: 5000,
     keywords: [
-      "boxes",
-      "food containers",
-      "kitchen"
+      "gaming",
+      "controller",
     ]
   },
   {
     id: "0d7f9afa-2efe-4fd9-b0fd-ba5663e0a524",
-    image: "images/products/coffeemaker-with-glass-carafe-black.jpg",
-    name: "Coffeemaker with Glass Carafe and Reusable Filter - 25 Oz, Black",
+    image: "images/products/12.jpg",
+    name: "Dell R440 1U 14G Poweredge Server | Data centre",
     rating: {
       stars: 4.5,
       count: 1211
     },
-    priceCents: 2250,
+    priceCents: 322300,
     keywords: [
-      "coffeemakers",
-      "kitchen",
-      "appliances"
+      "server",
+      "dell",
     ]
   },
   {
     id: "02e3a47e-dd68-467e-9f71-8bf6f723fdae",
-    image: "images/products/blackout-curtains-black.jpg",
-    name: "Blackout Curtains Set 42 x 84-Inch - Black, 2 Panels",
+    image: "images/products/scop.jpeg",
+    name: "Scorpion Gaming Chair",
     rating: {
       stars: 4.5,
       count: 363
     },
-    priceCents: 3099,
+    priceCents: 309900,
     keywords: [
-      "bedroom",
-      "home"
+      "gaming",
+      "scopion chair",
     ]
   },
   {
     id: "8a53b080-6d40-4a65-ab26-b24ecf700bce",
-    image: "images/products/cotton-bath-towels-teal.webp",
-    name: "100% Cotton Bath Towels - 2 Pack, Light Teal",
+    image: "images/products/gtx.webp",
+    name: "Amazon.com: HYDTGZ 24V/36V/48V/60/72V High Power Battery Charger for Golf Cart, Electric Forklift, Electric Car, Sweeper Battery Charger",
     rating: {
       stars: 4.5,
       count: 93
     },
-    priceCents: 2110,
+    priceCents: 211000,
     keywords: [
-      "bathroom",
-      "home",
-      "towels"
+      "gtx",
+      "gaming",
+      "graphics",
     ]
   },
   {
