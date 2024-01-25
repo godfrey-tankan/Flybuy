@@ -17,6 +17,28 @@
   grid-template-columns: repeat(8, 1fr);
 }
 
+.search-bar{
+  border: none;
+}
+
+.flybuy-sidebar ul li a{
+  color: rgb(43, 102, 48);
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.flybuy-sidebar ul li a{
+  color: rgb(43, 102, 48);
+  align-items: center;
+  justify-content: center;
+}
+.flybuy-sidebar ul li a:hover{
+  color: rgb(31, 83, 36);
+  border-bottom: rgb(6, 125, 98);
+  text-decoration:underline;
+
+}
+
 /* @media is used to create responsive design (making the
    website look good on any screen size). This @media
    means when the screen width is 2000px or less, we
@@ -78,22 +100,27 @@
     border: none;
     max-width: 120px;
   }
-  .flybuy-header-left-section .flybuy-sidebar{
-    width: 100%;
-    margin-left: -120px;
+  .flybuy-header-left-section .sidebar-toggle i{
 
+    display: flex;
   }
-
-  .flybuy-sidebar .sidebar-toggle i{
-    color: #000;
-
- }
-
+.sidebar-links .sidebar-rem i{
+  font-size: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+}
   .flybuy-sidebar ul li a{
     color: rgb(43, 102, 48);
     align-items: center;
     justify-content: center;
-    margin-left: 200px;
+  }
+  .flybuy-sidebar ul li a:hover{
+    color: rgb(31, 83, 36);
+    border-bottom: rgb(6, 125, 98);
+    text-decoration:underline;
+
   }
   .site-footer {
     margin-top: 200px;
@@ -202,7 +229,7 @@
 }
 
 .product-rating-count {
-  color: rgb(1, 124, 182);
+  color: rgb(6, 125, 98);
   cursor: pointer;
   margin-top: 3px;
 }
