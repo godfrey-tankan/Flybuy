@@ -53,7 +53,7 @@ const products = [
     image: "images/products/gaming-ryzen.jpg",
     name: "AMD Ryzen 9 7950X3D",
     rating: {
-      stars: 4.2,
+      stars: 4.5,
       count: 597
     },
     priceCents: 63700,
@@ -563,80 +563,73 @@ const products = [
   },
   {
     id: "10ed8504-57db-433c-b0a3-fc71a35c88a1",
-    image: "images/products/knit-athletic-sneakers-pink.webp",
-    name: "Waterproof Knit Athletic Sneakers - Pink",
+    image: "images/products/uhd-curved.jpeg",
+    name: "Samsung Voice Assist. Model: UN55TU8300FXZA",
     rating: {
-      stars: 4,
-      count: 89
+      stars: 4.5,
+      count: 110
     },
-    priceCents: 3390,
+    priceCents: 49999,
     keywords: [
-      "shoes",
-      "running shoes",
-      "footwear",
-      "womens"
+      "uhd",
+      "curved",
+      "samsung",
     ]
   },
   {
     id: "77a845b1-16ed-4eac-bdf9-5b591882113d",
-    image: "images/products/countertop-blender-64-oz.jpg",
-    name: "Countertop Blender - 64oz, 1400 Watts",
+    image: "images/products/pos.jpg",
+    name: "Pos Terminal",
     rating: {
-      stars: 4,
-      count: 3
+      stars: 5.0,
+      count: 3100
     },
-    priceCents: 10747,
+    priceCents: 35000,
     keywords: [
-      "food blenders",
-      "kitchen",
-      "appliances"
+      "pos",
+      "terminal",
     ]
   },
   {
     id: "36c64692-677f-4f58-b5ec-0dc2cf109e27",
-    image: "images/products/floral-mixing-bowl-set.jpg",
-    name: "10-Piece Mixing Bowl Set with Lids - Floral",
+    image: "images/products/ram.jpg",
+    name: "16gb Beast Ddr4 Ram",
     rating: {
-      stars: 5,
+      stars: 4.5,
       count: 679
     },
     priceCents: 3899,
     keywords: [
-      "mixing bowls",
-      "baking",
-      "cookware",
-      "kitchen"
+      "ram",
+      "beast",
     ]
   },
   {
     id: "aaa65ef3-8d6f-4eb3-bc9b-a6ea49047d8f",
-    image: "images/products/kitchen-paper-towels-30-pack.jpg",
-    name: "2-Ply Kitchen Paper Towels - 30 Pack",
+    image: "images/products/switch.jpg",
+    name: "C9500-24Q-A. Catalyst 9500 24-port 40G Cisco switch",
     rating: {
       stars: 4.5,
-      count: 1045
+      count: 10045
     },
-    priceCents: 5799,
+    priceCents: 3670700,
     keywords: [
-      "kitchen",
-      "kitchen towels",
-      "tissues"
+      "switch",
+      "cisco",
     ]
   },
   {
     id: "bc2847e9-5323-403f-b7cf-57fde044a955",
-    image: "images/products/men-cozy-fleece-zip-up-hoodie-red.jpg",
-    name: "Men's Full-Zip Hooded Fleece Sweatshirt",
+    image: "images/products/ssd.jpg",
+    name: "Samsung 980 PRO 1TB PCIe NVMe Gen4 Internal Gaming SSD",
     rating: {
       stars: 4.5,
       count: 3157
     },
-    priceCents: 2400,
+    priceCents: 9999,
     keywords: [
-      "sweaters",
-      "hoodies",
-      "apparel",
-      "mens"
+      "ssd",
+      "samsung",
     ]
   }
 ];

@@ -5,15 +5,29 @@
 
   margin-top: 140px;
   margin-bottom: 100px;
-
-  /* margin-left: auto;
-     margin-right auto;
-     Is a trick for centering an element horizontally
-     without needing a container. */
   margin-left: auto;
   margin-right: auto;
 }
 
+.flybuy-logo{
+  height: 30px;
+  margin-top: 5px;
+  width: 30px;
+}
+.flybuy-mobile-logo {
+  display: none;
+  margin-left: 30px;
+  width: 60px;
+  margin-top:   8px;
+  height: 50px;  
+}
+.flybuy-mobile-logo img{
+  border: 1px solid white;
+  border-radius: 40px solid white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .page-title {
   font-weight: 700;
   font-size: 22px;
@@ -22,13 +36,8 @@
 
 .checkout-grid {
   display: grid;
-  /* Here, 1fr means the first column will take
-     up the remaining space in the grid. */
   grid-template-columns: 1fr 350px;
   column-gap: 12px;
-
-  /* Use align-items: start; to prevent the elements
-     in the grid from stretching vertically. */
   align-items: start;
 }
 

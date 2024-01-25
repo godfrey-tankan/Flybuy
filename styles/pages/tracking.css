@@ -17,6 +17,25 @@
   display: inline-block;
   margin-bottom: 30px;
 }
+.flybuy-logo{
+  height: 30px;
+  margin-top: 5px;
+  width: 30px;
+}
+.flybuy-mobile-logo {
+  display: none;
+  margin-left: 30px;
+  width: 60px;
+  margin-top:   8px;
+  height: 50px;  
+}
+.flybuy-mobile-logo img{
+  border: 1px solid white;
+  border-radius: 40px solid white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .delivery-date {
   font-size: 25px;
@@ -64,7 +83,7 @@
   }
 }
 
-.progress-bar-container {
+/* .progress-bar-container {
   height: 25px;
   width: 100%;
 
@@ -78,4 +97,72 @@
   background-color: green;
   border-radius: 50px;
   width: 50%;
+} */
+
+.progress-labels-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.progress-label {
+  font-weight: bold;
+  color: #333;
+}
+
+.current-status {
+  color: #4caf50;
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 20px;
+}
+.progress-labels-container .progress-label span a { 
+  color: #4caf50;
+  text-decoration: none;
+}
+
+
+.progress-bar {
+  width: 0;
+  height: 20%;
+  background-color: #4caf50;
+  animation: progress-animation 300s linear infinite;
+}
+
+@keyframes progress-animation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+#popup-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+#popup-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#popup-message {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
 }
