@@ -74,9 +74,10 @@
 }
 
 .search-bar {
+  background-color: transparent;
   flex: 1;
-  width: 0;
-  font-size: 16px;
+  color: #fff;
+  font-size: 15px;
   height: 38px;
   padding-left: 15px;
   border: none;
@@ -85,10 +86,19 @@
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
+.search-bar {
+  font-size: 20px;
+  transition: opacity 1s, font-size 1s;
+}
 
+.search-bar:focus::placeholder {
+display: none;
+color: transparent;
+}
 .search-button {
-  background-color: rgb(254, 189, 105);
+  background-color: rgb(43, 102, 48);
   border: none;
+  color: #fff;
   width: 45px;
   height: 40px;
   border-top-right-radius: 4px;
@@ -142,7 +152,7 @@
 }
 
 .cart-quantity {
-  color: rgb(240, 136, 4);
+  color: rgb(4, 240, 43);
   font-size: 16px;
   font-weight: 700;
 

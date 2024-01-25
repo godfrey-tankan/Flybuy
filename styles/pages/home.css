@@ -51,6 +51,96 @@
   .products-grid {
     grid-template-columns: repeat(3, 1fr);
   }
+  .search-button{
+    margin-left: -50px;
+  }
+  .flybuy-logo{
+    height: 20px;
+    margin-top: 5px;
+    width: 20px;
+  }
+  .flybuy-mobile-logo {
+    display: none;
+    margin-left: 10px;
+    width: 20px;
+    margin-top:   8px;
+    height: 20px;  
+  }
+  .flybuy-mobile-logo img{
+    border: 1px solid white;
+    border-radius: 40px solid white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .search-bar{
+    border: none;
+    max-width: 120px;
+  }
+  .flybuy-header-left-section .flybuy-sidebar{
+    width: 100%;
+    margin-left: -120px;
+
+  }
+
+  .flybuy-sidebar .sidebar-toggle i{
+    color: #000;
+
+ }
+
+  .flybuy-sidebar ul li a{
+    color: rgb(43, 102, 48);
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+  }
+  .site-footer {
+    margin-top: 200px;
+    left: 0;
+    bottom: 0;
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+  }
+  .site-footer i{
+    padding: 20px;
+    font-size: 14px;
+    color: #777;
+  }
+  .footer-icons{
+    display: flex;
+    margin-top: -40px;
+    left: 18%;
+    position: absolute;
+  }
+  
+  
+  .footer-text {
+    padding: 10px;
+    position: absolute;
+    left: 20%;
+    margin-top: 5px;
+  }
+  .pagination {
+    display: flex;
+    margin-top: 30px;
+    display: inline-block;
+    left: 30%;
+    position: absolute;
+  }
+  .pagination i{
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .pagination i:hover{
+    color: rgb(43, 102, 48);
+    cursor: pointer;
+    font-size: 21px;
+    transition: .2s ease-out;
+  }
 }
 
 @media (max-width: 575px) {

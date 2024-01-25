@@ -12,15 +12,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 
     <!-- Here are the CSS files for this page. -->
     <link rel="stylesheet" href="styles/shared/general.css">
     <link rel="stylesheet" href="styles/shared/header.css">
     <link rel="stylesheet" href="styles/pages/home.css">
+    <link rel="stylesheet" href="styles/pages/sidebar.css">
   </head>
   <body>
+   
     <div class="flybuy-header">
       <div class="flybuy-header-left-section">
+        <button class="sidebar-toggle">
+          <i class="bi bi-list" style="font-size: 3rem; color: rgb(255, 255, 255),"></i>
+
+            </button>
+        <div class="flybuy-sidebar">
+          <div class="sidebar-header">
+            
+          </div>
+          <ul class="sidebar-links">
+            <li><a href="orders.html">Orders</a></li>
+            <li><a href="returns.html">Returns</a></li>
+            <li><a href="new-stock.html">New Stock</a></li>
+            <li><a href="my-buyings.html">View My Buyings</a></li>
+          </ul>
+        </div>
         <a href="index.html" class="header-link">
           <img class="flybuy-logo">
           <img class="flybuy-mobile-logo"
@@ -32,13 +51,15 @@
         <input class="search-bar" type="text" placeholder="Search">
 
         <button class="search-button">
-          <img class="search-icon" src="images/icons/search-icon.png">
+          <i class="bi bi-search" ></i>
         </button>
       </div>
 
       <div class="flybuy-header-right-section">
         <a class="orders-link header-link" href="orders.html">
-          <span class="returns-text">Returns</span>
+          
+          <span class="returns-text">
+            Returns</span>
           <span class="orders-text">& Orders</span>
         </a>
 
@@ -54,7 +75,23 @@
       <div class="products-grid js-products-grid">
       </div>
     </div>
-
+    <div class="pagination">
+      <i class="bi bi-arrow-left-square-fill"></i>
+    <i class="bi bi-1-square"></i>
+    <i class="bi bi-2-square"></i>
+    <i class="bi bi-3-square"></i>
+    <i class="bi bi-arrow-right-square-fill"></i>
+    </div>
+    <footer class="site-footer">
+      <div class="footer-icons">
+      <i class="bi-paypal" style="font-size: 1rem; color: cornflowerblue;"></i>
+      <i class="bi bi-whatsapp" style="font-size: 1rem; color: rgb(28, 128, 66);"></i>
+      <i class="bi bi-facebook" style="font-size: 1rem; color: rgb(22, 125, 185);"></i>
+      <i class="bi x" style="font-size: 1rem; color: rgb(0, 0, 0);"> X</i>
+      <i class="bi bi-cash-coin" style="font-size: 1rem; color: rgb(0, 0, 0);"></i>
+      </div>
+      <p class="footer-text">© 2024 Flybuy. All rights reserved.</p>
+    </footer>
     <script src="data/cart.js"></script>
     <script src="data/products.js"></script>
     <script src="scripts/index.js"></script>

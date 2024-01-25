@@ -25,22 +25,24 @@ input, select, button {
 }
 
 .button-primary {
-  color: rgb(33, 33, 33);
-  background-color: rgb(255, 216, 20);
-  border: 1px solid rgb(252, 210, 0);
+  color: rgb(230, 230, 230);
+  background-color: rgb(43, 102, 48);
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 8px;
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
 }
 
 .button-primary:hover {
-  background-color: rgb(247, 202, 0);
-  border: 1px solid rgb(242, 194, 0);
+  background-color: rgb(64, 122, 69);
+  color: rgb(255, 255, 255);
+  transition: .2s ease-in-out;
+  border: 1px solid rgb(233, 233, 233);
 }
 
 .button-primary:active {
-  background: rgb(255, 216, 20);
-  border-color: rgb(252, 210, 0);
+  background-color: rgb(72, 124, 77);
+  border-color: rgb(255, 255, 255);
   box-shadow: none;
 }
 
@@ -75,12 +77,11 @@ input, select, button {
 }
 
 .link-primary {
-  color: rgb(1, 124, 182);
   cursor: pointer;
 }
 
 .link-primary:hover {
-  color: rgb(196, 80, 0);
+  color: rgb(16, 61, 10);
 }
 
 /* Styles for dropdown selectors. */
@@ -97,5 +98,52 @@ select {
 
 select:focus,
 input:focus {
-  outline: 2px solid rgb(255, 153, 0);
+  outline: 2px solid rgb(43, 102, 48) 14px;
+;
+}
+.site-footer {
+  margin-top: 200px;
+  left: 0;
+  bottom: 0;
+  background-color: #f1f1f1;
+  padding: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+.site-footer i{
+  padding: 20px;
+  font-size: 14px;
+  color: #777;
+}
+.footer-icons{
+  display: flex;
+  margin-top: -50px;
+  left: 48%;
+  position: absolute;
+}
+
+
+.footer-text {
+  padding: 10px;
+  position: absolute;
+  left: 50%;
+  margin-top: 5px;
+}
+.pagination {
+  display: flex;
+  margin-top: 30px;
+  display: inline-block;
+  left: 50%;
+  position: absolute;
+}
+.pagination i{
+  font-size: 20px;
+  margin-left: 20px;
+}
+.pagination i:hover{
+  color: rgb(43, 102, 48);
+  cursor: pointer;
+  font-size: 21px;
+  transition: .2s ease-out;
 }

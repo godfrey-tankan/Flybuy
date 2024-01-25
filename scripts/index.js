@@ -1,4 +1,10 @@
 let productsHTML = '';
+const sidebarToggle = document.querySelector('.sidebar-toggle');
+const sidebar = document.querySelector('.flybuy-sidebar');
+
+sidebarToggle.addEventListener('click', () => {
+  sidebar.classList.toggle('sidebar-active');
+});
 
 products.forEach((product) => {
   productsHTML += `
