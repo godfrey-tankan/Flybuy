@@ -62,31 +62,55 @@
         </div>
 
         <div class="product-info">
-          Black and Gray Athletic Cotton Socks - 6 Pairs
+          Gaming ryzen 5 
         </div>
 
         <div class="product-info">
-          Quantity: 1
+          Quantity: 2
         </div>
+        <img class="product-image" src="images/products/gaming-ryzen.jpg">
 
-        <img class="product-image" src="images/products/athletic-cotton-socks-6-pairs.jpg">
+        <div class="progress-labels-container"> 
+          <div class="progress-label"> Tracking your Order: <span><a href="#"> #b6b6c212-d30e-4d4a-805d-90b52</a></span> </div>
+          </div>
 
-        <div class="progress-labels-container">
-          <div class="progress-label">
-            Preparing
-          </div>
-          <div class="progress-label current-status">
-            Shipped
-          </div>
-          <div class="progress-label">
-            Delivered
-          </div>
-        </div>
-
-        <div class="progress-bar-container">
-          <div class="progress-bar"></div>
-        </div>
-      </div>
+    <div class="progress-bar-container">
+      <div class="progress-bar"></div>
     </div>
+
+    <div class="progress-bar-contain">
+      <div class="progress-bar"></div>
+    </div>
+    
+    <div id="popup-container">
+      <div id="popup-box">
+        <div id="popup-message"></div>
+        <script>
+          setTimeout(showRandomPopup, 5000);
+          
+          function showRandomPopup() {
+            var messages = [
+              "Congratulations, Your order has been shipped to your country (ZW :🇿🇼) successfully ✅ ",
+              "Your order has been delivered to the destination successfully✅ ",
+              "❌ Tracking order was not successful, track this order on expected arrival date again to check if it was returned back to the supplier!."
+            ];
+          
+            var randomIndex = Math.floor(Math.random() * messages.length);
+            var randomMessage = messages[randomIndex];
+          
+            var popupMessageElement = document.getElementById("popup-message");
+            popupMessageElement.textContent = randomMessage;
+          
+            var popupContainer = document.getElementById("popup-container");
+            popupContainer.style.display = "block";
+          }
+          document.addEventListener("click", function(event) {
+            var popupContainer = document.getElementById("popup-container");
+            if (event.target === popupContainer) {
+              popupContainer.style.display = "none";
+            }
+          });
+        </script>
   </body>
+  
 </html>
