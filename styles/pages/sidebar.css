@@ -22,10 +22,9 @@
     cursor: pointer;
   }
   
-  .sidebar-toggle i {
-    text-decoration: none;
-    font-size: 24px;
-    color: rgb(255, 255, 255);
+  .flybuy-header .flybuy-header-left-section .sidebar-toggle i {
+    font-size: 1rem;
+    color: rgb(206, 206, 206);
   }
   
   .sidebar-links {

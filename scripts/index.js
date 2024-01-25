@@ -1,9 +1,13 @@
 let productsHTML = '';
 const sidebarToggle = document.querySelector('.sidebar-toggle');
+const sidebarRemove = document.querySelector('.sidebar-rem');
 const sidebar = document.querySelector('.flybuy-sidebar');
 
 sidebarToggle.addEventListener('click', () => {
   sidebar.classList.toggle('sidebar-active');
+});
+sidebarRemove.addEventListener('click', () => {
+  sidebar.classList.remove('sidebar-active');
 });
 
 products.forEach((product) => {
