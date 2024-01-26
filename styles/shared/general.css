@@ -105,7 +105,8 @@ input:focus {
   margin-top: 200px;
   left: 0;
   bottom: 0;
-  background-color: #f1f1f1;
+  background-color: rgb(37, 82, 41);
+  /* background-color: #f1f1f1; */
   padding: 40px;
   text-align: center;
   font-size: 14px;
@@ -114,7 +115,7 @@ input:focus {
 .site-footer i{
   padding: 20px;
   font-size: 14px;
-  color: #777;
+  color: #ffffff;
 }
 .footer-icons{
   display: flex;
@@ -127,6 +128,7 @@ input:focus {
 .footer-text {
   padding: 10px;
   position: absolute;
+  color: #ffffff;
   left: 50%;
   margin-top: 5px;
 }

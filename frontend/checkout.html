@@ -12,25 +12,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <!-- Here are the CSS files for this page. -->
     <link rel="stylesheet" href="/styles/shared/general.css">
     <link rel="stylesheet" href="/styles/pages/checkout/checkout-header.css">
     <link rel="stylesheet" href="/styles/pages/checkout/checkout.css">
+    <link rel="stylesheet" href="/styles/shared/payments.css">
   </head>
   <body>
     <div class="checkout-header">
       <div class="header-content">
         <div class="checkout-header-left-section">
           <a href="/index.html">
-            <img class="flybuy-logo" src="/images/flybuy.png">
+            <img class="flybuy-logo" src="/images/flybuy1.png">
             <img class="flybuy-mobile-logo" src="/images/flybuy1.png">
           </a>
         </div>
 
         <div class="checkout-header-middle-section">
           Checkout (<a class="return-to-home-link"
-            href="/index.html">3 items</a>)
+            href="/index.html">all items</a>)
         </div>
 
         <div class="checkout-header-right-section">
@@ -51,23 +54,23 @@
 
             <div class="cart-item-details-grid">
               <img class="product-image"
-                src="/images/products/athletic-cotton-socks-6-pairs.jpg">
+                src="/images/products/airpods.jpeg">
 
               <div class="cart-item-details">
                 <div class="product-name">
-                  Black and Gray Athletic Cotton Socks - 6 Pairs
+                  Apple AirPods with Charging Case (Wired)
                 </div>
                 <div class="product-price">
-                  $10.90
+                  $219.99
                 </div>
                 <div class="product-quantity">
                   <span>
                     Quantity: <span class="quantity-label">2</span>
                   </span>
-                  <span class="update-quantity-link link-primary">
+                  <span class="update-quantity-link " style="color: green;">
                     Update
                   </span>
-                  <span class="delete-quantity-link link-primary">
+                  <span class="delete-quantity-link " style="color: red;">
                     Delete
                   </span>
                 </div>
@@ -99,7 +102,7 @@
                       Wednesday, June 15
                     </div>
                     <div class="delivery-option-price">
-                      $4.99 - Shipping
+                      $139.99 - Shipping
                     </div>
                   </div>
                 </div>
@@ -112,7 +115,7 @@
                       Monday, June 13
                     </div>
                     <div class="delivery-option-price">
-                      $9.99 - Shipping
+                      $90.99 - Shipping
                     </div>
                   </div>
                 </div>
@@ -127,23 +130,23 @@
 
             <div class="cart-item-details-grid">
               <img class="product-image"
-                src="/images/products/intermediate-composite-basketball.jpg">
+                src="/images/products/samsung-s23-ultra.jpeg">
 
               <div class="cart-item-details">
                 <div class="product-name">
-                  Intermediate Size Basketball
+                  Galaxy S23 Ultra - 8GB RAM + 256GB storage
                 </div>
                 <div class="product-price">
-                  $20.95
+                  $1199.99
                 </div>
                 <div class="product-quantity">
                   <span>
                     Quantity: <span class="quantity-label">1</span>
                   </span>
-                  <span class="update-quantity-link link-primary">
+                  <span class="updat " style="color: green; ">
                     Update
                   </span>
-                  <span class="delete-quantity-link link-primary">
+                  <span class="delete-quantity-link " style="color: red;">
                     Delete
                   </span>
                 </div>
@@ -174,7 +177,7 @@
                       Wednesday, June 15
                     </div>
                     <div class="delivery-option-price">
-                      $4.99 - Shipping
+                      $40.99 - Shipping
                     </div>
                   </div>
                 </div>
@@ -186,50 +189,141 @@
                       Monday, June 13
                     </div>
                     <div class="delivery-option-price">
-                      $9.99 - Shipping
+                      $113.00 - Shipping
                     </div>
+                  </div>
+                  
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <div class="payment-summary">
+            <div class="payment-summary-title">
+              Order Summary
+            </div>
+      
+            <div class="payment-summary-row">
+              <div>Items (3):</div>
+              <div class="payment-summary-money">$1637.00</div>
+            </div>
+      
+            <div class="payment-summary-row">
+              <div>Shipping &amp; handling:</div>
+              <div class="payment-summary-money">$200.99</div>
+            </div>
+      
+            <div class="payment-summary-row subtotal-row">
+              <div>Total before tax:</div>
+              <div class="payment-summary-money">$1637.00</div>
+            </div>
+      
+            <div class="payment-summary-row">
+              <div>Estimated tax (10%):</div>
+              <div class="payment-summary-money">$107.00</div>
+            </div>
+      
+            <div class="payment-summary-row total-row">
+              <div>Order total:</div>
+              <div class="payment-summary-money">$1744.00</div>
+            </div>
+      
+            <button class="place-order-button button-primary">
+              Place your order
+            </button>
+          </div>
+        </div>
+<!-- Payment section -->
+        <div class="overlay" id="loadingOverlay">
+          <div class="loading">Loading...</div>
+        </div>
+        
+        <div class="overlay" id="paymentOverlay">
+          <div class="payment-options">
+          <div style="color: green; margin-top: -10px; justify-content: center;align-items: center;margin-bottom: 20px; background-color: rgb(220, 223, 226);">Fill in your payment details.</div>
+
+            <form class="row g-2 needs-validation" novalidate>
+              <div class="col-md-9 position-relative">
+                <label for="validationTooltipUsername" class="form-label">Account #</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text" id="validationTooltipAccountNumber"><img src="/images/msc.jpg" alt=""></span>
+                  <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+                  <div class="invalid-tooltip">
+                    Please choose a unique and valid username.
                   </div>
                 </div>
               </div>
+              <div class="col-md-9 position-relative">
+                <label for="validationTooltip03" class="form-label">CVC #</label>
+                <input type="text" class="form-control" id="validationTooltip03" required>
+                <div class="invalid-tooltip">
+                  Please provide a valid city.
+                </div>
+              </div>
+              <div class="col-md-9 position-relative">
+                <label for="validationTooltip04" class="form-label">Expiry date</label>
+                <input type="text" class="form-control" id="validationTooltip03" placeholder="mm/yy" required>
+                <div class="invalid-tooltip">
+                  Please select a valid state.
+                </div>
+              </div>
+              <div class="col-md-9 position-relativee"style="padding-bottom: 30px;">
+                <label for="validationTooltip04" class="form-label" >email:</label>
+                <input type="text" class="form-control" id="validationTooltip03" placeholder="jane@yourprovider.com" required>
+                <div class="invalid-tooltip">
+                  Please select a valid state.
+                </div>
+              </div>
+              <div class="col-12">
+              </div>
+            </form>
+            <button class="btn btn-primary next-to-payment button-primary"  onclick="showBillingForm()">Next</button>
+          </div>
+        </div>
+        
+        <div class="overlay" id="billingOverlay">
+          <div class="billing-information">
+            <div class="alert alert-success" role="alert">
+              <h4 class="alert-heading">Payment Option Added successfully!</h4>
+              <p>We might temporarily hold up to $1 USD (or an equivalent amount in local currency) as a pending transaction for 3-5 days to verify your identity. This is an authorization, and you might need to contact your card issuer to approve it..</p>
+              <hr>
+              <p class="mb-0">this process takes 24 hours,keep on checking you email for the outcome. </p>
+            <button id="hide-billing" class="btn btn-primary next-to-payment button-primary"  onclick="hideBilling()">ok</button>
+
             </div>
           </div>
         </div>
-
-        <div class="payment-summary">
-          <div class="payment-summary-title">
-            Order Summary
-          </div>
-
-          <div class="payment-summary-row">
-            <div>Items (3):</div>
-            <div class="payment-summary-money">$42.75</div>
-          </div>
-
-          <div class="payment-summary-row">
-            <div>Shipping &amp; handling:</div>
-            <div class="payment-summary-money">$4.99</div>
-          </div>
-
-          <div class="payment-summary-row subtotal-row">
-            <div>Total before tax:</div>
-            <div class="payment-summary-money">$47.74</div>
-          </div>
-
-          <div class="payment-summary-row">
-            <div>Estimated tax (10%):</div>
-            <div class="payment-summary-money">$4.77</div>
-          </div>
-
-          <div class="payment-summary-row total-row">
-            <div>Order total:</div>
-            <div class="payment-summary-money">$52.51</div>
-          </div>
-
-          <button class="place-order-button button-primary">
-            Place your order
-          </button>
-        </div>
-      </div>
-    </div>
+        <script>
+          function showBillingForm() {
+            const paymentOverlay = document.getElementById('paymentOverlay');
+            paymentOverlay.style.display = 'none';
+        
+            const loadingOverlay = document.getElementById('loadingOverlay');
+            loadingOverlay.style.display = 'flex';
+            const delayInSeconds = Math.floor(Math.random() * (6 - 2 + 1)) + 2;
+            setTimeout(function() {
+              loadingOverlay.style.display = 'none';
+              const billingOverlay = document.getElementById('billingOverlay');
+              billingOverlay.style.display = 'flex';
+            }, delayInSeconds * 1000);
+          }
+        function hideBilling() {
+          const paymentOverlay = document.getElementById('billingOverlay');
+            paymentOverlay.style.display = 'none';
+        
+            const loadingOverlay = document.getElementById('loadingOverlay');
+          
+        }
+          function submitOrder() {
+            const billingOverlay = document.getElementById('billingOverlay');
+            billingOverlay.style.display = 'none';
+          }
+        
+          const placeOrderButton = document.querySelector('.place-order-button');
+          placeOrderButton.addEventListener('click', function() {
+            const paymentOverlay = document.getElementById('paymentOverlay');
+            paymentOverlay.style.display = 'flex';
+          });
+        </script>
   </body>
 </html>
