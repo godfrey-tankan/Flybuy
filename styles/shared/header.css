@@ -3,7 +3,6 @@
   color: white;
   padding-left: 15px;
   padding-right: 15px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -41,8 +40,9 @@
 
 .flybuy-mobile-logo {
   margin-left: 30px;
-  width: 30px;
-  margin-top:   8px;
+  width: 100px;
+  opacity: 0.5;
+  margin-top:10px;
   height: 30px;  
 }
 .flybuy-mobile-logo img{

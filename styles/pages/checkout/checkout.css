@@ -126,6 +126,7 @@
 
 .product-quantity .link-primary {
   margin-left: 3px;
+  text-decoration: none;
 }
 
 @media (max-width: 1000px) {
